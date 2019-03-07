@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:padding="15dp"
+    android:id = "@+id/parent_layout">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id = "@+id/image"
+        android:src="@drawable/asteroid"/>
+
+    <TextView
+        android:id="@+id/neoname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/image"
+        android:text="Name of thing"
+        android:textColor="#ffff"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/missDistance"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/neoname"
+        android:textColor="#ffff"
+        android:textSize="17sp"
+        android:text="miss distance of thing"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/danger"
+        android:layout_below="@+id/missDistance"
+        android:textColor="#ffff"
+        android:textSize="17sp"
+        android:text="is this dangerous?"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/image"/>
+
+
+</RelativeLayout>
