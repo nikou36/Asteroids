@@ -63,8 +63,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         Log.d(TAG, "onBindViewHolder: called");
-        //add photos here
-        //Glide.with(mContext).asBitmap().load(mImages.get(i)).into(viewHolder.image);
         Log.d(TAG,"bind viw size = "+neoNames.size());
         viewHolder.mName.setText(neoNames.get(i));
         viewHolder.mSize.setText(neoSizes.get(i));
@@ -84,8 +82,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public int getItemCount() {
         Log.d(TAG, "get item count called");
         return neoNames.size();
-        //return 12;
-        //return debug;
+
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
