@@ -9,3 +9,4 @@ So get out your telescopes, open this app and see how many objects you can find.
 
 This project relies heavily on NASA's NEO(near earth objects) API, as all the information for this project is extracted from there. It also uses 
 NASA's APOD( astronomy picture of the day) API to show the user what the picture of the day is.
+To get to the main Java code please click the folders in the following order: StarsnStuff --> app --> --> src --> main --> java. 
