@@ -13,5 +13,5 @@ This functions of this project were developed in Java.
 
 ## App Walkthrough
 
-### Main Screen
-<img src = "stars-demo-images/main-activity.png">
+### 1) Main Screen
+<img src = "stars-demo-images/main-activity.png" height = "70">
