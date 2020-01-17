@@ -14,4 +14,4 @@ This functions of this project were developed in Java.
 ## App Walkthrough
 
 ### Main Screen
-<img src = "stars-demo-images/main-activity.png>
+<img src = "stars-demo-images/main-activity.png">
