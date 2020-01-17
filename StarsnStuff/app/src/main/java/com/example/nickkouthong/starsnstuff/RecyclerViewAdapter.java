@@ -68,7 +68,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         viewHolder.mSize.setText(neoSizes.get(i));
         viewHolder.hazard.setText(dangers.get(i));
         if(dangers.get(i) == "Is potentially dangerous") {
-            viewHolder.view.setImageResource(R.drawable.caution);
+            viewHolder.view.setImageResource(R.drawable.caution2);
         }else {
             viewHolder.view.setImageResource(R.drawable.asteroid);
         }

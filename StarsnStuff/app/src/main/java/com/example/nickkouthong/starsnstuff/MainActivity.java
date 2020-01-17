@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Get and set current date.
         dateFacDB = DateFormat.format("yyyy-MM-dd", currentTime).toString();
-        title.setText("Report for " + dateFacDB);
+        title.setText("NEO Report for " + dateFacDB);
 
         String neoUrl = "https://api.nasa.gov/neo/rest/v1/feed?start_date="+ dateFacDB + "&end_date=" + dateFacDB + "&api_key=DEMO_KEY";
 
